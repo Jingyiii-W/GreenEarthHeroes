@@ -1,0 +1,228 @@
+/* Reset default margin and padding */
+body, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+.header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header .logo h3 {
+    margin: 0;
+}
+
+.header .nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+
+.header .nav a.active {
+    font-weight: bold;
+}
+
+/* Style the banner */
+.banner img {
+    max-width: 100%;
+    height: auto;
+    width: 1300px; /* Adjust the width as needed to make it a square */
+    height: 350px; /* Adjust the height to match the width for a square look */
+}
+
+/* Style the text section */
+.text {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px; /* Slightly reduce the border-radius for a softer look */
+}
+
+.text-left, .text-right {
+    flex: 1;
+}
+
+.title b {
+    font-size: 24px; /* Increase font size for emphasis */
+    color: #333;
+}
+
+.title h3 {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.text-box {
+    display: flex; /* Corrected the display property to "flex" */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text-box img {
+    max-width: 20%;
+    height: 70%;
+    width: 40%; /* Ensure the image resizes to the container width */
+    border-radius: 50%; /* Centered circular appearance */
+}
+
+.tl-text p {
+    margin-top: 10px;
+    margin-left: 140px;
+    color: #333;
+}
+
+.story{
+	width: 1160px;
+	padding: 20px;
+	margin: 15px auto;
+	background: #FFF;
+	border-radius: 15px;
+}
+.story-list{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #ccc;
+	padding: 20px 0;
+}
+.nl-text{
+	width: 800px;
+}
+.nl-text h3{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.nl-text p{
+	font-size: 15px;
+	color: #666666;
+	line-height: 1.8;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+}
+.nl-img img{
+	width: 300px;
+	height: 160px;
+	border-radius: 10px;
+}
+
+
+.zhan {
+	width: 1160px;
+	padding: 20px;
+	margin: 30px auto;
+	border-radius: 15px;
+	background: #FFF;
+}
+
+.zhan ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.zhan ul li {
+	width: 23%;
+	margin: 10px 0;
+}
+
+.zhan ul li img {
+	width: 100%;
+	height: 260px;
+	object-fit: cover;
+	border: 1px solid #e1e1e1;
+	border-radius: 8px;
+}
+
+.zhan ul li p {
+	margin: 5px 0;
+}
+
+.zhan ul li span {
+	font-size: 12px;
+	color: #999999;
+}
+
+.shareAction{
+	width: 1160px;
+	padding: 20px;
+	margin: 15px auto;
+	background: #FFF;
+	border-radius: 15px;
+}
+.action-box label{
+	display: block;
+}
+.action-box label input{
+	width: 260px;
+	height: 30px;
+	padding-left: 10px;
+	margin-bottom: 15px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+.action-box label textarea{
+	width: 560px;
+	height: 80px;
+	padding: 10px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+.action-box form>input{
+	cursor: pointer;
+	background: #00c7e4;
+	padding: 5px 20px;
+	margin-top: 15px;
+	border: none;
+	color: #FFF;
+}
+
+.about {
+	width: 1220px;
+	margin: 30px auto;
+	padding: 20px;
+	background: #FFF;
+	border-radius: 15px;
+}
+
+.about p {
+	line-height: 1.6;
+	margin: 5px 0;
+	font-size: 16px;
+	text-indent: 2em;
+}
+
+.about img {
+	display: block;
+	max-width: 80%;
+	margin: 10px auto;
+}
+
+
+
+/* Style the footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer p {
+    margin: 0;
+}
